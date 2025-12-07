@@ -7,6 +7,8 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+// Processbar. Серверный класс.
+
 public class Server {
 
     public static void main(String[] args) {
@@ -145,4 +147,5 @@ public class Server {
             }
         }
     }
+
 }
