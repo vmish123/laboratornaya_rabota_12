@@ -12,4 +12,6 @@ module org.example.javafx {
     opens org.example.javafx.SecondTask to javafx.fxml;
     exports org.example.javafx.SecondTask;
 
+    opens org.example.javafx.ThirdTask to javafx.fxml;
+    exports org.example.javafx.ThirdTask;
 }
