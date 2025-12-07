@@ -17,6 +17,8 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
+// Processbar. Клиентский класс.
+
 public class Client extends Application {
 
     private ProgressBar progressBar;
@@ -138,4 +140,5 @@ public class Client extends Application {
         }
         super.stop();
     }
+
 }
