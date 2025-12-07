@@ -133,12 +133,9 @@ public class Client extends Application {
         }
     }
 
-    @Override
-    public void stop() throws Exception {
-        if (socket != null && !socket.isClosed()) {
-            socket.close();
-        }
-        super.stop();
+    public static void main(String[] args) {
+        launch(args);
     }
-
+    
 }
+
